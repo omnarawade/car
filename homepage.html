@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scvale=1.0">
+        <title>
+About the imformation 
+        </title>
+        <style>
+            .banner{
+                width: 100%;
+                height: 100vh;
+                position: relative;
+                overflow: hidden;
+            }
+            .slider{
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+                top: 0;
+            }
+            #slideimg{
+                width: 100%;
+                height: 100%;
+            }
+            .overlay{
+                width: 100%;
+                height: 100vh;
+                background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+                position: absolute;
+                top: 0;
+            }
+            .navbar{
+                width: 85%;
+                display: flex;
+                align-items: center;
+                margin: 35px auto;
+            }
+            .logo{
+                flex-basis: 15%;
+            }
+            .logo img{width: 120px;
+            cursor: pointer;}
+            .menu-icon{
+                flex: 1;
+                align-items: center;
+                text-align: right;
+            }
+            .menu-icon img{
+                width: 20px;
+                margin-left: 40px;
+                cursor: pointer;
+            }
+            .content{
+                width: 60%;
+                margin: 160px auto 0;
+                text-align: center;
+                color: aliceblue;
+            }
+            .content h1{
+                font-size: 60px;
+            }
+            .conntent h3{
+                width: 80%;
+                margin: 20px auto 100px;
+                font-weight: 100;
+                line-height: 25px;
+            }
+            button{
+                width: 200PX;
+                padding: 15px 0;
+                text-align: center;
+                margin: 0 10px;
+                border-radius: 25px;
+                font-weight: bold;
+                border: 2px solid #fe7250;
+                background-color: #fe7250;
+                color: aliceblue;
+                cursor: pointer;}             
+            button:hover{
+                background-color:transparent;
+                border: 2px solid #ffffff;}
+        </style>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="slider">
+                <img src="background1.jpg" id="slideimg">
+            </div>
+            <div class="overlay">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="logo.png">
+                    </div>
+                    <div class="menu-icon">
+                        <img src="user.png">
+                        <img src="cart.png">
+                        <img src="menu.png">
+                    </div>
+                </div>
+                <div class="content">
+                    <h1>let's Explore It</h1>
+                    <h3>let's design it much more better to make it different from others</h3>
+                </div>
+                <div>
+                    <button type="button">Explore MORE</button>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+   
